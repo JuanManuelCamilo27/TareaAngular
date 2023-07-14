@@ -1,0 +1,32 @@
+#productos {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#productos td,
+#productos th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#productos tr:hover {
+  background-color: #ddd;
+}
+
+#productos th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+#button {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  font-size: 1em;
+  font-weight: 600;
+}

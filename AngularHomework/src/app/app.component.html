@@ -1,0 +1,23 @@
+<h1>Tabla de Productos</h1>
+<hr />
+
+<table id="productos" *ngIf="show">
+  <tr>
+    <th *ngFor="let header of headers">
+      {{ header }}
+    </th>
+  </tr>
+  <tr *ngFor="let producto of productos">
+    <td>{{ producto.ID }}</td>
+    <td>{{ producto.nombres }}</td>
+    <td>{{ producto.costos }}</td>
+  </tr>
+</table>
+
+<!-- <button (click)="toggle()">Toggle Hide/Show table</button> -->
+
+<div>
+  <button id="button" mat-raised-button color="primary" (click)="toggle()">
+    Toggle Hide/Show table
+  </button>
+</div>
